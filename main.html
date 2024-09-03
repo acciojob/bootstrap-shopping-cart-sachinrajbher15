@@ -1,105 +1,97 @@
 <!DOCTYPE html>
-<html lang="en">
+
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <title>Shopping Cart</title>
+	<link rel="stylesheet" href="styles.css">
+	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
 </head>
+
 <body>
-    <header>
-        <h2 class="block-heading">Shopping cart</h2>
-        <p class="summary">The customer is very important, the customer will be followed by the customer. Now, as an urn, I have no right to be in possession of property.</p>
-    </header>
-    
-    <div class="container">
+	 <div class="header text-center ">
+        <h1 class="text-primary">Shopping cart</h1><br>
+    <p class="text-center">The customer is very important, the customer will be following by the customer. Now as an urn, I have no rights to be possession of property.</p></div>
+  
+  
+    <div class="container  bg-light">
         <div class="row">
-            <div class="col-lg-8 content left">
-                <!-- Products Section -->
+            <div class="col-lg-8">
                 <div class="product">
-                    <div class="product-image">
-                        <a href="#"><img class="img-fluid" alt="IPhone" src="https://media.croma.com/image/upload/v1708671239/Croma%20Assets/Communication/Mobiles/Images/243466_0_jepbxv.png"></a>
+                    <div class="row">
+                        <div class="col-md-3">
+                            <img class="img-fluid" alt="IPhone" src="https://media.croma.com/image/upload/v1708671239/Croma%20Assets/Communication/Mobiles/Images/243466_0_jepbxv.png">
+                        </div>
+                        <div class="col-md-3 product-description">
+                            <h5 class="text-primary">I am very sorry</h5>
+                            <p>Display: 5 inches</p>
+                            <p>RAM: 4GB</p>
+                            <p>Memory: 32GB</p>
+                        </div >
+                        <div class="col-md-3 text-center">Quantity:
+                            <input type="text" class="form-control">
+                        </div>
+                        <div class="col-md-3 p-3 text-center">$120</div>
                     </div>
-                    <div class="product-description">
-                        <h5>I am very sorry</h5>
-                        <p>Display: 5 inches</p>
-                        <p>RAM: 4GB</p>
-                        <p>Memory: 32GB</p>
+                    <hr>
+                </div>
+
+                <div class="block-heading">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <img class="img-fluid" alt="IPhone" src="https://media.croma.com/image/upload/v1708671239/Croma%20Assets/Communication/Mobiles/Images/243466_0_jepbxv.png">
+                        </div>
+                        <div class="col-md-3 product-description">
+                            <h5 class="text-primary">I am very sorry</h5>
+                            <p>Display: 5 inches</p>
+                            <p>RAM: 4GB</p>
+                            <p>Memory: 32GB</p>
+                        </div >
+                        <div class="col-md-3 text-center">Quantity:
+                            <input type="text" class="form-control">
+                        </div>
+                        <div class="col-md-3 p-3 text-center">$120</div>
                     </div>
-                    <div class="product-quantity">
-                        <h5>Quantity</h5>
-                        <p>0</p>
-                    </div>
-                    <div class="product-price">
-                        <p>$120</p>
+                    <hr>
+                </div>
+    
+                <div class="product">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <img class="img-fluid" alt="IPhone" src="https://media.croma.com/image/upload/v1708671239/Croma%20Assets/Communication/Mobiles/Images/243466_0_jepbxv.png">
+                        </div>
+                        <div class="col-md-3 product-description">
+                            <h5 class="text-primary">I am very sorry</h5>
+                            <p>Display: 5 inches</p>
+                            <p>RAM: 4GB</p>
+                            <p>Memory: 32GB</p>
+                        </div >
+                        <div class="col-md-3 text-center">Quantity:
+                            <input type="text" class="form-control">
+                        </div>
+                        <div class="col-md-3 p-3 text-center">$120</div>
                     </div>
                 </div>
-                <div class="product">
-                    <div class="product-image">
-                        <a href="#"><img class="img-fluid" alt="IPhone" src="https://media.croma.com/image/upload/v1708671239/Croma%20Assets/Communication/Mobiles/Images/243466_0_jepbxv.png"></a>
-                    </div>
-                    <div class="product-description">
-                        <h5>I am very sorry</h5>
-                        <p>Display: 5 inches</p>
-                        <p>RAM: 4GB</p>
-                        <p>Memory: 32GB</p>
-                    </div>
-                    <div class="product-quantity">
-                        <h5>Quantity</h5>
-                        <p>1</p>
-                    </div>
-                    <div class="product-price">
-                        <p>$120</p>
-                    </div>
-                </div>
-                <div class="product">
-                    <div class="product-image">
-                        <a href="#"><img class="img-fluid" alt="IPhone" src="https://media.croma.com/image/upload/v1708671239/Croma%20Assets/Communication/Mobiles/Images/243466_0_jepbxv.png"></a>
-                    </div>
-                    <div class="product-description">
-                        <h5>I am very sorry</h5>
-                        <p>Display: 5 inches</p>
-                        <p>RAM: 4GB</p>
-                        <p>Memory: 32GB</p>
-                    </div>
-                    <div class="product-quantity">
-                        <h5>Quantity</h5>
-                        <p>2</p>
-                    </div>
-                    <div class="product-price">
-                        <p>$120</p>
-                    </div>
-                </div>
+      
             </div>
-            <div class="col-lg-4 content right">
-                <h2>Summary</h2>
-                <table class="bill table table-bordered">
-                    <tr>
-                        <td>Subtotal</td>
-                        <td>$360</td>
-                    </tr>
-                    <tr>
-                        <td>Discount</td>
-                        <td>$0</td>
-                    </tr>
-                    <tr>
-                        <td>Shipping</td>
-                        <td>$0</td>
-                    </tr>
-                    <tr>
-                        <td>Total</td>
-                        <td>$360</td>
-                    </tr>
-                </table>
-                <button class="btn btn-primary checkout-btn">Checkout</button>
+            
+
+            <div class="col-lg-4">
+                <hr>
+                <div class="summary">
+                    <h2 class="text-center">Summary</h2>
+                    <p>Subtotal: $360</p><hr>
+                    <p>Discount: $0</p><hr>
+                    <p>Shipping: $0</p><hr>
+                    <p>Total: $360</p><hr>
+                    <a type="button" class="btn summary-button btn-lg w-100">Checkout</a>
+                </div>
             </div>
         </div>
     </div>
 
-    <script type="text/javascript" src="./script.js"></script>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="./script.js">
+</script>
+
 </body>
+
 </html>
